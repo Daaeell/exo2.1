@@ -1,0 +1,221 @@
+
+/* -----  ----  ---- Général ----  ----  ----- */
+@media screen and (max-width: 1300px) {
+    .newsletter {
+        margin-top: 2%;
+        margin-left: 25%;
+
+    }
+    .eh {
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    #navpc {
+        display: none;
+    }
+    #navtab {
+        display: flex;
+    }
+    .navpages {
+        display: none;
+    }
+    .menutab {
+        margin-top: 4%;
+    }
+    .articlep1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_article {
+        width: 30%;
+    }
+    .text_event {
+        font-size: 100%;
+        margin: 0;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .bgnews {
+        display: none;
+    }
+    .bgnewsres {
+        display: block;
+    }
+    .newsletter {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .eh {
+        margin-top: 2%;
+    }
+    
+}
+@media screen and (max-width: 940px) {
+    #bg_header {
+        display: none;
+    }
+    .distab {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px)  {
+
+    #bg_header {
+        display: none;
+    }
+    #navtab {
+        display: none;  
+    }
+    #navphone {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-top: 4%;
+    }
+    .slide_top {
+        margin-top: 15%;
+    }
+    .slide_intern {
+        width: 80% ;
+    }
+    .arrow_slide {
+        display: none;
+    }
+    .articlep1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_article {
+        width: 95%;
+        margin: 1%;
+    }
+    .eventp3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6%;
+        width: 100%;
+        background-color: white;
+    }
+    .text_event {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 100%;
+        padding: 15%;
+        
+        width: 100%;
+        height: 100%;
+    }
+    .text_event p {
+        margin-top: 5%;
+    }
+    .bgeventdiv {
+        width: 100%;
+    }
+    .p5 {
+        margin-left: 0;
+    }
+    .newsletter {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .footer_contain {
+        font-size: 70%;
+    }
+    
+}
+@media screen and (max-width: 460px) {
+
+    #navphone {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-top: 7%;
+    }
+    .contactnores {
+        display: none;
+    }
+    .contactresponsive {
+        display: block;
+    }
+    .slide_top {
+        margin-top: 20%;
+    }
+    .slide_intern {
+        width: 80% ;
+    }
+    .text_event {
+        font-size: 100%;
+        margin: 0;
+        padding: 15%;
+    
+    }
+    .text_event p {
+        margin-top: 5%;
+    }
+    .disphone {
+        display: block;
+    }
+    .lien {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+
+    #navphone {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-top: 9%;
+    }
+    .slide_top {
+        margin-top: 30%;
+    }
+    .slide_intern {
+        width: 95% ;
+    }
+    .titlepo {
+        padding: 1%;
+    }
+}
+@media screen and (max-width: 290px) {
+
+    #navphone {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-top: 9%;
+    }
+    .dismini {
+        display: block;
+    }
+}
+
+/* -----  ----  ---- Prédéfinis ----  ----  ----- */
+
+@media screen and (min-width: 820px) and (max-height: 1180px){
+
+    .p4 {
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+}
+@media screen and (min-width: 1024px) and (max-height: 1366px) {
+
+    .p4 {
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+}
+/* -----  ----  ----  ----  ----  ----- */

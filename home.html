@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="./responsive.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- --------------------------------------------------------------------------- -->
+    <header>
+      <div id="navbc" class="container-fluid">
+
+        <!-- ----------- 1ère Nav ----------- -->
+
+        <div id="nav_contact" class=" text-center row justify-content-center text_w">
+          <h6 class="contactnores">+00 (123) 456 7890 | INFO@DOMAIN.COM</h6> 
+          <h6 class="contactresponsive">INFO@DOMAIN.COM</h6> 
+        </div>
+
+        <!-- ---------- 2ème Nav ------------ -->
+
+        <div id="nav_bar" class="row align-items-center z-3 position-absolute">
+
+          <div id="navbar_left" class="col align-items-center text_w">
+            <h1 class="">BRICKARY</h1>
+          </div>
+
+          <div id="navbar_right" class="col align-items-center justify-content-end">
+
+            <!-- --- Navbar > 1024px | Dropdown pages / Tab --- -->
+
+            <div id="navtab" class="btn justify-content-end dropdown-center">
+              <button class="btn menutab" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify">
+                  <line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/>
+                  <line x1="3" x2="21" y1="18" y2="18"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="#">Home</a></li>
+                <li><a class="dropdown-item" href="#">Featured</a></li>
+                <li><a class="dropdown-item" href="#">Collections</a></li>
+                <li><a class="dropdown-item" href="#">Services</a></li>
+              </ul>
+            </div>
+
+            <ul id="navtab" class="nav justify-content-end">
+              <li class="nav-item">
+                <button type="button" class="btn align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round">
+                    <circle cx="12" cy="8" r="5"/>
+                    <path d="M20 21a8 8 0 0 0-16 0"/>
+                  </svg>
+                </button>
+              </li>
+              <li class="nav-item">
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-plus"><path d="M2 21a8 8 0 0 1 13.292-6"/>
+                      <circle cx="10" cy="8" r="5"/><path d="M19 16v6"/>
+                      <path d="M22 19h-6"/>
+                    </svg>
+                  </button>
+                  <div class="dropdown-menu form_register ">
+                    <form class="px-4 py-3">
+                      <div class="input-group mb-3">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Email">
+                          <label for="floatingInputGroup1">Email</label>
+                        </div>
+                        <span class="input-group-text">@</span>
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="form-floating">
+                          <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Password">
+                          <label for="floatingInputGroup1">Password</label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-dark sign_button">Sign in</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">ㅤㅤㅤㅤㅤㅤㅤForgot password ?ㅤㅤㅤㅤㅤㅤㅤ</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">ㅤㅤㅤㅤㅤㅤㅤㅤㅤSign upㅤㅤㅤㅤㅤㅤㅤㅤㅤ</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            
+            <!-- --- Navbar < 1024px | Laptop / Deskop --- -->
+
+              <ul id="navpc" class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link navpages text_w" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navpages text_w" href="#">Featured</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navpages text_w" href="#">Collections</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navpages text_w">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round">
+                      <circle cx="12" cy="8" r="5"/>
+                      <path d="M20 21a8 8 0 0 0-16 0"/>
+                    </svg>
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-plus"><path d="M2 21a8 8 0 0 1 13.292-6"/>
+                        <circle cx="10" cy="8" r="5"/><path d="M19 16v6"/>
+                        <path d="M22 19h-6"/>
+                      </svg>
+                    </button>
+                    <div class="dropdown-menu form_register">
+                      <form class="px-4 py-3">
+                        <div class="input-group mb-3">
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Email">
+                            <label for="floatingInputGroup1">Email</label>
+                          </div>
+                          <span class="input-group-text">@</span>
+                        </div>
+                        <div class="input-group mb-3">
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Password">
+                            <label for="floatingInputGroup1">Password</label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-dark sign_button">Sign in</button>
+                      </form>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">ㅤㅤㅤㅤㅤㅤㅤForgot password ?ㅤㅤㅤㅤㅤㅤㅤ</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">ㅤㅤㅤㅤㅤㅤㅤㅤㅤSign upㅤㅤㅤㅤㅤㅤㅤㅤㅤ</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+            <!-- --- Navbar > 767px | Menu burger / Phone --- -->
+
+              <div id="navphone" class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                  <li><a class="menu__item text_w" href="#">Home</a></li>
+                  <li><a class="menu__item text_w" href="#">About</a></li>
+                  <li><a class="menu__item text_w" href="#">Team</a></li>
+                  <li><a class="menu__item text_w" href="#">Contact</a></li>
+
+                  <li class="nav-item icontab">
+                    <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round">
+                        <circle cx="12" cy="8" r="5"/>
+                        <path d="M20 21a8 8 0 0 0-16 0"/>
+                      </svg>
+                    </button>
+                    <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-plus"><path d="M2 21a8 8 0 0 1 13.292-6"/>
+                        <circle cx="10" cy="8" r="5"/><path d="M19 16v6"/>
+                        <path d="M22 19h-6"/>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- ---------------------- -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img id="bg_header" class="z-n1 position-absolute" src="/images/background-header.jpg" width="100%">
+    </header>
+    <!-- --------------------------------------------------------------------------- -->
+    <main>
+      
+      <!-- ------------- P1 : Slide -------------- -->
+
+      <div id="carouselExampleIndicators" class="carousel slide slide_top">
+
+        <div class="carousel-inner slide_intern">
+
+          <div class="carousel-item active slide_text">
+            <h4>Lorem ipsum</h4>
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>
+              Qui et quam perferendis excepturi accusantium et.Dolor consequatur voluptate molestiae.
+              Qui et quam perferendis excepturi accusantium et. neque necessitatibus et. Est sed temporibus 
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto readmore_slide">
+              <button class="button-48 btn btn-dark" role="button">
+                <p>MORE INFO</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item slide_text">  
+            <h4>Lorem ipsum</h4> 
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>
+              Qui et quam perferendis excepturi accusantium et.Dolor consequatur voluptate molestiae.
+              Qui et quam perferendis excepturi accusantium et. neque necessitatibus et. Est sed temporibus 
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto readmore_slide">
+              <button class="button-48 btn btn-dark" role="button">
+                <p>MORE INFO</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item slide_text">
+            <h4>Lorem ipsum</h4>
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>
+              Qui et quam perferendis excepturi accusantium et.Dolor consequatur voluptate molestiae.
+              Qui et quam perferendis excepturi accusantium et. neque necessitatibus et. Est sed temporibus 
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto readmore_slide">
+              <button class="button-48 btn btn-dark" role="button">
+                <p>MORE INFO</p>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-indicators slide_indic">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <button class="carousel-control-prev arrow_slide" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next arrow_slide" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+      
+      <!-- ------------- P2 : Articles -------------- -->
+
+      <div class="articlep1 justify-content-center mt-5">
+
+        <div class="card_article col-3 card">
+          <img src="./images/flower.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="text_w">
+              <h5 class="card-title mt-1">Lorem, ipsum.</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, enim!</p>
+              <button class="articlebutton btn btn-dark">
+                <p>READ MORE</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_article col-3 card">
+          <img src="./images/volant.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="text_w">
+              <h5 class="card-title mt-1">Lorem, ipsum.</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, enim!</p>
+              <button class="articlebutton btn btn-dark">
+                <p>READ MORE</p>
+              </button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="card_article col-3 card">
+          <img src="./images/room.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="text_w">
+              <h5 class="card-title mt-1">Lorem, ipsum.</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, enim!</p>
+              <button class="articlebutton btn btn-dark">
+                <p>READ MORE</p>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- ------------- P3 : Events -------------- -->
+
+      <div class="eventp3 align-items-center">
+
+        <div class="text_event col">
+          <h1>From the blog</h1>
+          <p>Facilisis mauris tellus gravida elit ac eleifend nunc lorem Friday, 6th April 2045</p>
+          <p>Felis turpis semper at velit non porttitor semper libero Thursday, 5th April 2045</p>
+          <p>Dignissim arcu nec vulputate purus semper aliquam rhoncus Wednesday, 4th April 2045</p>
+        </div>
+        <div class="bgeventdiv col">
+          <img src="./images/cityv2.jpg" width="100%">
+        </div>
+
+      </div>
+
+      <!-- ------------- P4 : Articles -------------- -->
+
+      <div class="titlepo text-center mt-5 text_w align-items-center">
+        <h1>Augue eget iaculis mauris</h1>
+        <h4>Morbi sed molestie metus nunc malesuada lorem ut consectetur.</h4>
+      </div>
+
+      <!-- ---------------------- -->
+
+      <div class="p4 articlep1 justify-content-center mt-5">
+
+        <div class="card_article col-3 card">
+          <img src="./images/portrait1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="text_w">
+              <h5 class="card-title mt-1">Sodales sollicitudin</h5>
+              <p class="card-text">Cursus elit tristique et sed id convallis arcu sed ac facilisis ligula nec maximus felis imperdiet condimentum [...]</p>
+              <button class="articlebutton btn btn-dark ">
+                <p>READ MORE</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_article col-3 card">
+          <img src="./images/portrait2.jpg" class="card-img-top imgp4" alt="...">
+          <div class="card-body">
+            <div class="textp4 text_w">
+              <h5 class="card-title mt-1">Maecenas et bibendum</h5>
+              <p class="card-text">Dolor et vestibulum phasellus scelerisque magna sapien non maximus sem faucibus id vestibulum neque eros [...]</p>
+              <button class="articlebutton btn btn-dark">
+                <p>READ MORE</p>
+              </button>
+            </div> 
+          </div>
+        </div>
+
+        <div class="card_article col-3 card">
+          <img src="./images/portrait3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="text_w">
+              <h5 class="card-title mt-1">Placerat ullameorper</h5>
+              <p class="card-text">Ac iaculis eleifend nibh nulla aliquet orci quis urna tristique egestas sed scelerisque dolor ipsum placerat [...]</p>
+              <button class="articlebutton eh btn btn-dark">
+                <p>READ MORE</p>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- ------------- P5 : Newsletter -------------- -->
+
+      <div class="p5">
+        <div class="newsletter text_w text-center ">
+          <h2>Newsletter</h2>
+          <p class="mb-2">Sed a eros ornare pulvinar lorem eget volutpat ex fusce sollicitudin porta erat ac dictum sed nec augue augue praesent congue, Ullamcorper neque a bibendum dolor placerat non nulla facilisi nullam ac velit</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <button class="button-48 btn btn-dark submit" role="button"><span class="text">SUBMIT</span></button>
+        </div>
+
+        <!-- -------- Pour le responsive ---------- -->
+
+          <!-- ------ 1024px ------ -->
+
+        <div class="bgnewsres">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <!-- ------ 940px ------ -->
+
+          <br class="distab">
+
+          <!-- ------ 460px ------ -->
+
+          <br class="disphone">
+          <br class="disphone">
+
+          <!-- ------ 290px ------ -->
+
+          <br class="dismini">
+          
+          <!-- ------------------ -->
+          
+        </div>
+        <img class="bgnews" src="./images/background-main.jpg" width="100%">
+      </div>
+
+      <!-- --------------------------- -->
+
+    </main>
+    <!-- --------------------------------------------------------------------------- -->
+    <footer>
+      
+      <!-- --------------------------- -->
+
+      <div class="footerposition">
+
+        <div class="footer_contain z-1">
+          <ul class="nav lien">
+            
+            <li class="nav-item">
+              <a class="nav-link text_w" href="#"><u>ABOUT</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_w" href="#"><u>CONTACT</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_w" href="#"><u>TERMS</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_w" href="#"><u>PRIVACY</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_w" href="#"><u>COOKIES</u></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_w" href="#"><u>DISCLAIMER</u></a>
+            </li>
+          </ul>
+          <p class="copyright">© 2024 Brickary</p>
+        </div>
+        <img class="bgfooter position-absolute z-0" src="./images/background-footer.jpg" width="100%" height="auto">
+
+      </div>
+
+      <!-- --------------------------- -->
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
